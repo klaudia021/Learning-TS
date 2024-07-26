@@ -1,0 +1,12 @@
+If we have lite server installed we can run "lite-server", se every time we re-transpile our file it will reload the page.
+
+We can transpile our file with the --watch or -W, we go into watch mode. So every time we save our files they get recompiled.
+
+We can add exclude at the end of the compilerOptions in the tsconfig, so we can exclude files from transpiling.
+We can add node_modules
+  "exclude": [
+    "node_modules"
+  ]
+This is actually default, so we do not need to add exclude and node_modules (but if we add exclude we need to add node_modules).
+
+Set transpile folder.
